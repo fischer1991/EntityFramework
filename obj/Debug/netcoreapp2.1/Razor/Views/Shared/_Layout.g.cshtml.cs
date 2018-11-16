@@ -54,12 +54,12 @@ using Blog.Models;
             WriteLiteral("<html>\r\n\t");
             EndContext();
             BeginContext(9, 426, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d50b80857b0b4c8ea270d0b88f59a123", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5c98fe6b2d0042cdb61bea331b3d273d", async() => {
                 BeginContext(15, 45, true);
                 WriteLiteral("\r\n\t\t<title>Resenha cultural</title>\r\n        ");
                 EndContext();
                 BeginContext(60, 67, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f66869a49c434f5ba4d90144b992bdd4", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ea0f1a18feb14e349cd53cc3039b9732", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -79,7 +79,7 @@ using Blog.Models;
                 WriteLiteral("\r\n        ");
                 EndContext();
                 BeginContext(137, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0ff7c40d78034bc1b0ab9788cd8fbb22", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "05353a18d5244767870ff06126a25aa8", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -114,7 +114,7 @@ using Blog.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(437, 266, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5cd3ed23938b44fc8d8782dffefa517d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7fd55d171d6c416f91e3dce08891657e", async() => {
                 BeginContext(443, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();

@@ -7,7 +7,7 @@ namespace Blog.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            /* migrationBuilder.CreateTable(
+             migrationBuilder.CreateTable(
                 name: "posts",
                 columns: table => new
                 {
@@ -20,7 +20,7 @@ namespace Blog.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_posts", x => x.ID);
-                });*/
+                });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
