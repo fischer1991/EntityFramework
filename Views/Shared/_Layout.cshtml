@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Resenha cultural</title>
+        <link href="~/css/jquery-ui.css" rel="stylesheet" type="text/css"/>
+        <link href="~/css/estilo.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+<body>
+    @Html.Partial("Cabecalho")
+
+    <div class="container clearfix">
+        <main>
+            @RenderBody()
+        </main>
+
+        @Html.Partial("Lateral")
+    </div>
+
+    @Html.Partial("Rodape")
+
+    @RenderSection("Scripts", false)
+</body>
+</html>

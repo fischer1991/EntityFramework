@@ -1,0 +1,15 @@
+@model Blog.Models.Post
+
+@using(@Html.BeginForm("EditaPost","Post")){ 
+    @Html.HiddenFor( p => p.ID)
+    @Html.HiddenFor( p => p.DataPublicacao )
+    @Html.HiddenFor( p => p.Publicado )
+    
+    @Html.EditorFor( p => p)
+
+    <button class="btn btn-primary" type="submit">Cadastrar</button>
+}
+
+@section Scripts{
+    @Html.Partial("_Scripts")
+}

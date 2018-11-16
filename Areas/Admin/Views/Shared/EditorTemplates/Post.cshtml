@@ -1,0 +1,19 @@
+@model Blog.Models.Post
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@Html.LabelFor( p => p.Titulo)
+@Html.TextBoxFor( p => p.Titulo, new {@class="form-control"} )
+@Html.ValidationMessageFor( p => p.Titulo)
+
+<br><br>
+
+@Html.LabelFor( p => p.Resumo )
+@Html.TextAreaFor( p => p.Resumo , new {@class="form-control", rows=6})
+@Html.ValidationMessageFor( p => p.Resumo)
+
+<br><br>
+@Html.LabelFor( p => p.Categoria )
+@Html.TextBoxFor( p => p.Categoria , new {@class="form-control"})
+@Html.ValidationMessageFor( p => p.Categoria )
+
+<br><br>
