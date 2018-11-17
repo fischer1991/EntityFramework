@@ -21,8 +21,10 @@ namespace Blog.DAO{
 
         }
 
-        public void Adiciona(Post p){
-            contexto.Add(p);
+        public void Adiciona(Post post, Usuario usuario){
+            contexto.usuarios.Attach(usuario);
+            post.Autor = usuario;
+            contexto.Add(post);
             contexto.SaveChanges();                                     
         }
 

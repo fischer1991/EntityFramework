@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Blog.Models
@@ -14,7 +15,9 @@ namespace Blog.Models
         public string Categoria { get; set; }
         public int ID { get;set;}
 
+        public Usuario Autor { get; set; }
         public DateTime? DataPublicacao {get; set;}
         public bool Publicado{get; set;}
     }
+   
 }

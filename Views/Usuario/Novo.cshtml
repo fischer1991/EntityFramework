@@ -1,0 +1,10 @@
+
+@model Blog.Models.RegistroViewModel
+@Html.ValidationSummary()
+@using (Html.BeginForm("Salva", "Usuario",FormMethod.Post))
+{
+    @Html.LabelFor(rvm => rvm.LoginName)
+    @Html.TextBoxFor(rvm => rvm.LoginName)
+    @Html.PasswordFor(rvm => rvm.Senha)
+     <button type="submit">OK</button>
+}

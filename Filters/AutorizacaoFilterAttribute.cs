@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Routing;
 
 namespace Blog.Filters
 {
-
     public class AutorizacaoFilterAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuting(ActionExecutingContext filterContext)

@@ -14,5 +14,10 @@ namespace Blog.DAO{
             return contexto.usuarios.Where( u => u.Nome.Equals(Login) && u.Senha.Equals(Senha)).
                                         FirstOrDefault<Usuario>();
         }
+        public void Adiciona(Usuario usuario)
+        {
+            contexto.usuarios.Add(usuario);
+            contexto.SaveChanges();
+        }
     }
 }

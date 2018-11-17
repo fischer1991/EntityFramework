@@ -78,3 +78,4 @@ C:\Users\aspnet7892\Documents\LC\Blog\obj\Debug\netcoreapp2.1\Blog.Views.pdb
 C:\Users\aspnet7892\Documents\LC\Blog\obj\Debug\netcoreapp2.1\Blog.dll
 C:\Users\aspnet7892\Documents\LC\Blog\obj\Debug\netcoreapp2.1\Blog.pdb
 C:\Users\aspnet7892\Documents\LC\Blog\obj\Debug\netcoreapp2.1\Blog.csproj.CopyComplete
+C:\Users\aspnet7892\Documents\LC\Blog\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Novo.g.cshtml.cs

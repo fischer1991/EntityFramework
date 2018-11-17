@@ -63,12 +63,12 @@ using Blog.Models;
             WriteLiteral("\r\n<html>\r\n    ");
             EndContext();
             BeginContext(66, 473, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67ea0a5e838e4c068c6fa0056875b7e0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ddfe40a3940d4d8cafcd5c90d22e8d6e", async() => {
                 BeginContext(72, 92, true);
                 WriteLiteral("\r\n        <meta charset=\"utf-8\"/>\r\n        <title>Resenha Cultural - Login</title>\r\n        ");
                 EndContext();
                 BeginContext(164, 67, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "81b9c27ffc654bf7ab6ef30f8a65c5d2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9b2a1b6a5fd14d42a739196b893f482a", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -88,7 +88,7 @@ using Blog.Models;
                 WriteLiteral("\r\n        ");
                 EndContext();
                 BeginContext(241, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "1a07e9f31f8f4e05bfff8f37a4d40ce7", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "083863415a004fec84f2ce3b854ea019", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -123,7 +123,7 @@ using Blog.Models;
             WriteLiteral("\r\n    ");
             EndContext();
             BeginContext(545, 710, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dca3bba15c5f45228d6a01a35acfd323", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "619f6a344c4c4b4ca08177209658ebe6", async() => {
                 BeginContext(551, 138, true);
                 WriteLiteral("\r\n        <div class=\"container\">\r\n            <main id=\"login-form\">\r\n                <h2>Resenha Cultural - Login</h2>\r\n                ");
                 EndContext();
