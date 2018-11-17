@@ -28,6 +28,11 @@ namespace Blog.DAO{
             contexto.SaveChanges();                                     
         }
 
+        public void Adiciona(Post post){
+            contexto.Add(post);
+            contexto.SaveChanges();                                     
+        }
+
         public IList<Post> Categoria(string Categoria){
                 IList<Post> listaFiltrada;
                 return listaFiltrada = contexto.posts.Where(p => p.Categoria.Contains(Categoria)).ToList();

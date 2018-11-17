@@ -15,21 +15,21 @@ namespace Blog.Areas.Admin.Controllers
     {
         private IList<Post> lista;
         public PostDAO dao;
-        [HttpPost]
-        public IActionResult Adiciona(Post post)
-        {
-            if (ModelState.IsValid)
-            {
-                string usuarioJson = HttpContext.Session.GetString("usuario");
-                Usuario logado = JsonConvert.DeserializeObject<Usuario>(usuarioJson);
-                dao.Adiciona(post, logado);
-                return RedirectToAction("Index");
-            }
-            else
-            {
-              return View("Novo", post);      
-            }
-        }
+       // [HttpPost]
+        // public IActionResult Adiciona(Post post)
+        // {
+        //     if (ModelState.IsValid)
+        //     {
+        //         string usuarioJson = HttpContext.Session.GetString("usuario");
+        //         Usuario logado = JsonConvert.DeserializeObject<Usuario>(usuarioJson);
+        //         dao.Adiciona(post, logado);
+        //         return RedirectToAction("Index");
+        //     }
+        //     else
+        //     {
+        //       return View("Novo", post);      
+        //     }
+        // }
 
         public PostController( PostDAO dao) {
             lista = new List<Post>();
